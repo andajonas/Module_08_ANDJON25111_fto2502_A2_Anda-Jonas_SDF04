@@ -78,12 +78,12 @@ footer .container {
 /* Footer Logo */
 .footer-logo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 20px 0;
 }
 
 .footer-logo img {
     height: 40px; /* Adjust based on the required size */
-    display: block;
-   
+    display: flex;
+    
 }
