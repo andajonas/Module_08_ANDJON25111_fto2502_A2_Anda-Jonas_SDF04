@@ -31,6 +31,7 @@ footer .container {
     color: black;
 }
 
+/* Footer Links */
 .footer-col ul {
     list-style: none;
 }
@@ -45,6 +46,7 @@ footer .container {
     font-size: 14px;
 }
 
+/* Form Styling */
 .footer-col input {
     border: 1px solid #ccc;
     padding: 8px;
@@ -78,57 +80,7 @@ footer .container {
 }
 
 .footer-logo img {
-    height: 40px; 
+    height: 40px; /* Adjust based on the required size */
     display: block;
    
-}
-
-/* Default layout (for larger screens like desktops) */
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-/* Responsive for iPad (Width: 768px) */
-@media screen and (max-width: 768px) {
-    .row {
-        flex-direction: column; 
-        align-items: center; 
-        text-align: center; 
-    }
-
-    .footer-col {
-        margin-bottom: 20px; 
-    }
-
-    .footer-logo {
-        justify-content: center; 
-    }
-}
-
-/* Responsive for iPhone (Width: 375px) */
-@media screen and (max-width: 375px) {
-    .row {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center content */
-        text-align: center;
-    }
-
-    .footer-col {
-        width: 100%; 
-        margin-bottom: 15px;
-    }
-
-    .footer-col input {
-        width: 90%; 
-    }
-
-    .footer-logo {
-        justify-content: center; 
-    }
-
-    .footer-logo img {
-        height: 30px; 
-    }
 }

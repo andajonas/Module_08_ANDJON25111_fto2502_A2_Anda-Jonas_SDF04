@@ -93,9 +93,9 @@ footer .container {
 /* Responsive for iPad (Width: 768px) */
 @media screen and (max-width: 768px) {
     .row {
-        flex-direction: column; 
-        align-items: center; 
-        text-align: center; 
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center items */
+        text-align: center; /* Align text */
     }
 
     .footer-col {
@@ -129,6 +129,6 @@ footer .container {
     }
 
     .footer-logo img {
-        height: 30px; 
+        height: 30px; /* Reduce logo size for small screens */
     }
 }

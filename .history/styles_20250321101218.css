@@ -93,9 +93,9 @@ footer .container {
 /* Responsive for iPad (Width: 768px) */
 @media screen and (max-width: 768px) {
     .row {
-        flex-direction: column; 
-        align-items: center; 
-        text-align: center; 
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center items */
+        text-align: center; /* Align text */
     }
 
     .footer-col {
@@ -116,19 +116,19 @@ footer .container {
     }
 
     .footer-col {
-        width: 100%; 
+        width: 100%; /* Make columns take full width */
         margin-bottom: 15px;
     }
 
     .footer-col input {
-        width: 90%; 
+        width: 90%; /* Adjust input width */
     }
 
     .footer-logo {
-        justify-content: center; 
+        justify-content: center; /* Keep the logo centered */
     }
 
     .footer-logo img {
-        height: 30px; 
+        height: 30px; /* Reduce logo size for small screens */
     }
 }
