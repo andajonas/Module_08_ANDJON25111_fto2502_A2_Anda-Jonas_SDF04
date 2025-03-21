@@ -7,9 +7,9 @@
     font-family: "Poppins", sans-serif;
 }
 
-
+/* Background Color Fix */
 footer .container {
-    background: #659f8f; 
+    background: #659f8f; /* Adjust this to match your design */
     padding: 50px 100px;
 }
 
@@ -83,55 +83,6 @@ footer .container {
 }
 
 .footer-logo img {
-    height: 40px; 
+    height: 40px; /* Adjust based on the required size */
     display: block;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-/* Responsive for iPad (Width: 768px) */
-@media screen and (max-width: 768px) {
-    .row {
-        flex-direction: column; 
-        align-items: center; 
-        text-align: center; 
-    }
-
-    .footer-col {
-        margin-bottom: 20px; 
-    }
-
-    .footer-logo {
-        justify-content: center; 
-    }
-}
-
-/* Responsive for iPhone (Width: 375px) */
-@media screen and (max-width: 375px) {
-    .row {
-        flex-direction: column; 
-        align-items: center; 
-        text-align: center;
-    }
-
-    .footer-col {
-        width: 100%; 
-        margin-bottom: 15px;
-    }
-
-    .footer-col input {
-        width: 90%; 
-    }
-
-    .footer-logo {
-        justify-content: center; 
-    }
-
-    .footer-logo img {
-        height: 30px; 
-    }
 }

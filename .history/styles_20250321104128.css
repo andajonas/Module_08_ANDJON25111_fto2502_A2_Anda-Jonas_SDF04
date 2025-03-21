@@ -132,6 +132,6 @@ footer .container {
     }
 
     .footer-logo img {
-        height: 30px; 
+        height: 30px; /* Reduce logo size for small screens */
     }
 }

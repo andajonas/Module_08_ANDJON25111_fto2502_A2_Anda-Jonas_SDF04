@@ -119,19 +119,19 @@ footer .container {
     }
 
     .footer-col {
-        width: 100%; 
+        width: 100%; /* Make columns take full width */
         margin-bottom: 15px;
     }
 
     .footer-col input {
-        width: 90%; 
+        width: 90%; /* Adjust input width */
     }
 
     .footer-logo {
-        justify-content: center; 
+        justify-content: center; /* Keep the logo centered */
     }
 
     .footer-logo img {
-        height: 30px; 
+        height: 30px; /* Reduce logo size for small screens */
     }
 }

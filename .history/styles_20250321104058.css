@@ -102,36 +102,36 @@ footer .container {
     }
 
     .footer-col {
-        margin-bottom: 20px; 
+        margin-bottom: 20px; /* Add spacing between sections */
     }
 
     .footer-logo {
-        justify-content: center; 
+        justify-content: center; /* Keep the logo centered */
     }
 }
 
 /* Responsive for iPhone (Width: 375px) */
 @media screen and (max-width: 375px) {
     .row {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center content */
         text-align: center;
     }
 
     .footer-col {
-        width: 100%; 
+        width: 100%; /* Make columns take full width */
         margin-bottom: 15px;
     }
 
     .footer-col input {
-        width: 90%; 
+        width: 90%; /* Adjust input width */
     }
 
     .footer-logo {
-        justify-content: center; 
+        justify-content: center; /* Keep the logo centered */
     }
 
     .footer-logo img {
-        height: 30px; 
+        height: 30px; /* Reduce logo size for small screens */
     }
 }
