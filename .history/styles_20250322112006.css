@@ -7,11 +7,13 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 footer .container {
     background: #659f8f; 
     padding: 50px 100px;
 }
 
+/* Footer Layout */
 .row {
     display: flex;
     justify-content: space-between;
